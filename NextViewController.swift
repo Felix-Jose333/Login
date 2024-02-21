@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = .systemBlue
         title = "Welcome all"
         
         let usernameLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 21))
